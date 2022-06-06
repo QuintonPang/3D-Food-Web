@@ -29,7 +29,7 @@ const Apple = ({...props}) => {
   // set mass, position and length, width and height of collision box
   const [ref,api] = useBox(()=>({mass:1,position:[0,0.3*scale ,0],args: [length, height, width]}))
   return(
-    <group position={[0,0,0]} ref={group} {...props} dispose={null}>
+    <group position={[0,10,0]} ref={group} {...props} dispose={null}>
      <mesh ref={ref} onClick={()=>{api.velocity.set(0,2*scale,0)}} position={[0,0.3*scale,0]} scale={scale} castShadow receiveShadow geometry={nodes.Apple.children[0].geometry} material={nodes.Apple.children[0].material}/>
      <mesh position={[0,0,0]} ref={planeRef} rotation={[-Math.PI/2,0,0]}> 
 
