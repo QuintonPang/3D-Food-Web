@@ -14,7 +14,7 @@ import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader'
 import {  useBox, usePlane } from '@react-three/cannon'
 
 const Rice = ({...props}) => {
-    const {nodes,materials} = useGLTF( '/models/scene.gltf')
+    const {nodes,materials} = useGLTF( 'scene.gltf')
     const group = useRef()
     const [planeRef] = useBox(()=>({rotation:[-Math.PI/2,0,0],args:[length*scale+2,width*scale+2,0.1*scale]}))
 
@@ -44,4 +44,4 @@ const Rice = ({...props}) => {
 
 export default Rice
 
-useGLTF.preload('/models/scene.gltf')
+useGLTF.preload('scene.gltf')
