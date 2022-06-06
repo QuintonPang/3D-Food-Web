@@ -15,7 +15,7 @@ import {  useBox, usePlane } from '@react-three/cannon'
 
 const Apple = ({...props}) => {
 
-    const {nodes,materials} = useGLTF('/models/scene.gltf')
+    const {nodes,materials} = useGLTF('models/scene.gltf')
     const group = useRef()
     const [planeRef] = useBox(()=>({rotation:[-Math.PI/2,0,0],args:[length*scale+10,width*scale+10,0.1*scale]}))
 
@@ -45,4 +45,4 @@ const Apple = ({...props}) => {
 
 export default Apple
 
-useGLTF.preload('/models/scene.gltf')
+useGLTF.preload('models/scene.gltf')
