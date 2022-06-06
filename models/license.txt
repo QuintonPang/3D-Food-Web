@@ -1,0 +1,11 @@
+Model Information:
+* title:	Foods 2
+* source:	https://sketchfab.com/3d-models/foods-2-3a1b98f2715c4295802dc2e69d16ec9b
+* author:	Elbolillo (https://sketchfab.com/Elbolilloduro)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Foods 2" (https://sketchfab.com/3d-models/foods-2-3a1b98f2715c4295802dc2e69d16ec9b) by Elbolillo (https://sketchfab.com/Elbolilloduro) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
