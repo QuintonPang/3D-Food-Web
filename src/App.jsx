@@ -14,7 +14,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 export default function App() {
   return (
     <Canvas orthographic shadows dpr={[1, 2]} camera={{ position: [10, 10, 10], zoom: 10 }}>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
       <color attach="background" args={['#252530']} />
       <ambientLight intensity={0.01} />
       <hemisphereLight intensity={0.125} color="#8040df" groundColor="red" />
