@@ -14,8 +14,8 @@ import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader'
 import {  useBox, usePlane } from '@react-three/cannon'
 
 const Apple = ({...props}) => {
-  console.log(process.env.BASE_URL)
-    const {nodes,materials} = useGLTF( process.env.BASE_URL+'/models/scene.gltf')
+  console.log(process.env.PUBLIC_URL)
+    const {nodes,materials} = useGLTF( process.env.PUBLIC_URL+'/models/scene.gltf')
     const group = useRef()
     const [planeRef] = useBox(()=>({rotation:[-Math.PI/2,0,0],args:[length*scale+10,width*scale+10,0.1*scale]}))
 
